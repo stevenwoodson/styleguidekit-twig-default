@@ -24,6 +24,12 @@
     "source":         "https://github.com/pattern-lab/styleguidekit-twig-default/releases"
   },
   "require": {
-    "pattern-lab/styleguidekit-assets-default": "^3.0.0"
-  }
+    "pattern-lab/styleguidekit-assets-default": "dev-feature/accessibility-updates"
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/stevenwoodson/styleguidekit-assets-default"
+    }
+  ]
 }
